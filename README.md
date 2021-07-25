@@ -4,7 +4,7 @@ The project takes parameterised inputs from Jenkins and deploys code according t
 JOB_NAME = Jenkins Job name
 DESTINATION_SERVERS = Destination server IPs separated by commas
 DESTINATION_LOCATION = Code deployment path on the destination server
-SOURCE_LOCATION = 
+SOURCE_LOCATION = Source code location on Build server
 BACKUP_LOCATION = Backup of the source code before deploying the new code
 LOGON_USER = Logon user to destination servers
 CACHE_CLEANUP_SCRIPT_LOCATION = Python cache clearing script location
